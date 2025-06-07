@@ -22,26 +22,41 @@ document.addEventListener('DOMContentLoaded', () => {
     // Close mobile menu when clicking on a link
     document.querySelectorAll('.nav-links a').forEach(link => {
         link.addEventListener('click', () => {
+            // Only close the menu if we're on mobile
+            if (window.innerWidth <= 768) {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+    });
+
+    // Handle window resize
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768) {
             navLinks.classList.remove('active');
             hamburger.classList.remove('active');
-        });
+        }
     });
 
     // Smooth scrolling for navigation links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
+            const targetId = this.getAttribute('href');
+            const target = document.querySelector(targetId);
+            
             if (target) {
+                // Close mobile menu if open
+                if (window.innerWidth <= 768) {
+                    navLinks.classList.remove('active');
+                    hamburger.classList.remove('active');
+                }
+                
+                // Scroll to target
                 target.scrollIntoView({
                     behavior: 'smooth',
                     block: 'start'
                 });
-                // Close mobile menu if open
-                if (window.innerWidth <= 768) {
-                    navLinks.style.display = 'none';
-                    hamburger.classList.remove('active');
-                }
             }
         });
     });
