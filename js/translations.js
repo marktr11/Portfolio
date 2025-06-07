@@ -58,7 +58,7 @@ const translations = {
 
         // Project 4
         'project4-title': 'Cancer Risk Detection',
-        'project4-desc': 'Developed a machine learning model to predict cancer risk based on patient data and medical imaging.',
+        'project4-desc': 'Developed a machine learning model to predict cancer risk based on patient data.',
 
         // Contact Section
         'contact-title': 'Get in Touch',
@@ -142,7 +142,7 @@ const translations = {
 
         // Project 4
         'project4-title': 'Détection du Risque de Cancer',
-        'project4-desc': 'Développement d\'un modèle de machine learning pour prédire le risque de cancer basé sur les données des patients et l\'imagerie médicale.',
+        'project4-desc': 'Développement d\'un modèle de machine learning pour prédire le risque de cancer basé sur les données des patients.',
 
         // Contact Section
         'contact-title': 'Contactez-moi',
