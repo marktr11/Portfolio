@@ -42,5 +42,5 @@ yarn-error.log*
 .tmp/
 
 # Project specific
-image/
+
 README.md 
