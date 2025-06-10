@@ -22,7 +22,7 @@ const translations = {
         // Education Items
         'education-efrei-title': 'EFREI Paris - Panthéon-Assas University',
         'education-efrei-date': '2025 - 2028',
-        'education-efrei-location': 'Engineering Degree in Big Data and Machine Learning',
+        'education-efrei-location': 'Master of Engineering (MEng) in Big Data and Machine Learning',
 
         'education-usth-title': 'IUT of Nice Côte d\'Azur',
         'education-usth-date': '2023 - 2025',
@@ -106,7 +106,7 @@ const translations = {
         // Education Items
         'education-efrei-title': 'EFREI Paris - Université Panthéon-Assas',
         'education-efrei-date': '2025 - 2028',
-        'education-efrei-location': 'Diplôme d\'Ingénieur en Big Data et Machine Learning',
+        'education-efrei-location': 'Diplôme d\'Ingénieur en Big Data et Machine Learning (RNCP 38532)',
 
         'education-usth-title': 'IUT de Nice Côte d\'Azur',
         'education-usth-date': '2023 - 2025',
