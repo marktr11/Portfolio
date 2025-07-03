@@ -113,7 +113,7 @@ const translations = {
         'education-usth-location': 'Bachelor Universitaire de Technologie (BUT) en Science des Données - Exploration et Modélisation Statistique (EMS)',
 
         // Work Items
-        'work-efrei-title': 'Apprenti Data Scientist R&D',
+        'work-efrei-title': 'Apprenti Data Scientist',
         'work-efrei-date': 'Septembre 2025 - Juin 2028',
         'work-efrei-location': 'Servier',
         'work-efrei-description': 'Développement et mise en œuvre de solutions de data science, incluant des modèles ML/IA, pour optimiser les processus de R&D pharmaceutique et soutenir les projets de recherche.',
