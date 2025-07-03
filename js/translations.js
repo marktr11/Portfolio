@@ -29,8 +29,8 @@ const translations = {
         'education-usth-location': 'Bachelor\'s Degree in Data Science - Exploration and Statistical Modeling (EMS)',
 
         // Work Items
-        'work-efrei-title': 'Data Scientist R&D Apprentice',
-        'work-efrei-date': '2025 - 2028',
+        'work-efrei-title': 'Data Scientist Apprentice',
+        'work-efrei-date': 'September 2025 - June 2028',
         'work-efrei-location': 'Servier',
         'work-efrei-description': 'Developed and implemented data science solutions, including ML/AI models, to optimize pharmacological R&D processes and support research projects.',
 
